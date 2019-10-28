@@ -1,0 +1,21 @@
+#buble sort
+ya = [5,4,3,2,1]
+
+for j in range(0,5):
+  berhenti=False
+  for i in range(0,4):
+    if ya[i] > ya[i+1]: 
+    #membandingkan index pertama, dengan index kedua
+      temp=ya[i]
+      ya[i]=ya[i+1]
+      ya[i+1]=temp
+      berhenti=False
+  if berhenti == True:
+    break
+print(j,ya)
+
+
+#berhenti
+#artinya, variabel untuk break
+#digunakan untuk memberhentikan, apabila terjadi pengecekan index yang tidak perlu
+#index yang benar, tidak perlu di cek
