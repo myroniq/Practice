@@ -1,0 +1,9 @@
+def parrot(volatge,state='a stiff',action='voom',type='norwegian'):
+    print("--this parrot wouldnt",action,end=' ')
+    print("if you put",volatge,"volts through it.")
+    print("--lovely plumage,the", type)
+    print("--its ",state,"!")
+
+parrot(volatge=1000000,action='voooooooom')
+
+#value nya bisa diubah sesuai keinginan
