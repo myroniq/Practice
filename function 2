@@ -1,0 +1,20 @@
+def cheeseshop(kind,*argument,**keyword):
+    print("--do you have any" ,kind, "?")
+    print("--im sorry,we're all out of",kind)
+
+    for arg in argument:
+        print(arg)
+    print("-" * 40)
+    for kw in keyword:
+        print(kw,":",keyword[kw])
+
+
+cheeseshop("Limburger", "It's very runny, sir.",
+           "It's really very, VERY runny, sir.",
+           shopkeeper="Michael Palin",
+           client="John Cleese",
+           sketch="Cheese Shop Sketch")
+
+
+# '*' ngambil value satu statement
+# '**' trigger nya ":"
